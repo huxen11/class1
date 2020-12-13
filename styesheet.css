@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image:url(cover.jpg);
+    background-size:100%;
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background-color:transparent;
+}
+.hedder{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    
+}
+.menu{
+    width: 90%;
+    height: 60px;
+    flex-grow: 1;
+    background-color: transparent;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+
+    
+}
+.search{
+    height: 40px;
+    width: 100px;
+    background-color: rgba(0, 235, 252, 0.205);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+
+}
+.button{
+    background-color:transparent;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 25px;
+    
+}
+
+.benner{
+    height: 200px;
+    flex-grow: 1;
+    background-color:transparent;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    color: orange;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(238, 174, 167, 0.123);
+    
+}
+.ser{
+    width: 300px;
+    background-color: snow;
+    height: 300px;
+
+}
+.next{
+    background-image: url(css.jpg);
+    width: 300px;
+    height: 300px;
+}
+
+
+.footer{
+    height: 200px;
+    flex-grow: 1;
+    background-color:transparent;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    color:rgb(99, 94, 94);
+}
